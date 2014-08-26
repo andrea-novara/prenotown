@@ -1,4 +1,4 @@
 prenotown
 =========
 
-Joomla components to book resources and handle fee payment
+A Joomla! component to book resources and handle fee payment
