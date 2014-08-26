@@ -1,0 +1,21 @@
+td { vertical-align: middle; border-width: 0px !important; }
+.Monday		{ background-color: #eed !important; color: #000; }
+.Tuesday	{ background-color: #ddc !important; color: #333; }
+.Wednesday	{ background-color: #ccb !important; color: #444; }
+.Thursday	{ background-color: #bba !important; color: #555; }
+.Friday		{ background-color: #aa9 !important; color: #555; }
+.Saturday	{ background-color: #998 !important; color: #eee; }
+.Sunday		{ background-color: #887 !important; color: #fff; }
+
+div.Monday, div.Tuesday, div.Wednesday, div.Thursday, div.Friday, div.Saturday, div.Sunday, #inner td {
+	padding: 3px;
+	margin: 2px; 
+	border: 1px solid #ccc !important;
+}
+
+.booked		{ background-color: red !important; }
+.reserved	{ background-color: orange !important; }
+
+input		{ width: auto }
+
+.calendar	{ display: inline }

@@ -1,0 +1,20 @@
+* Le risorse necessitano di definire fasce in cui non sono prenotabili?
+
+* L'intervallo di approvabilita' deve essere inferiore alla deadline!!!
+
+* il campo max_advance e' un TIME ma e' troppo corto (max 838:59:59) va cambiato!! :-(
+
+* la view paybooking dovrebbe ricontrollare che l'intervallo sia ancora disponibile
+  (altrimenti una vista abbandonata e ricaricata dopo qualche ora potrebbe voler pretendere
+  di prenotare su un'altra prenotazione inseritasi nel frattempo)
+
+* le due tabelle di booking e di payment possono essere fuse! (NO per futura
+  flessibilita': separate, consentono di fare un solo pagamento per piu'
+  prenotazioni, tipo "carrello della spesa")
+
+* in ogni caso, il campo payment_id in booking e' assurdo: l'id del payment e' foreign key
+  dell'id del booking! (NO: vedi punto precedente)
+
+* per espandibilita' futura potrebbe essere interessante aggiungere un campo
+  auto_approve boolean() alla tabella #__prenotown_resource: se VERO le
+  prenotazioni sono automaticamente attivate senza attendere approvazione.

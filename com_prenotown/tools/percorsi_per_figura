@@ -1,0 +1,29 @@
+cittadino
+- registrarmi (ok)
+- autenticarmi
+- cambiare la mia anagrafica (ok)
+- ricercare le risorse (ok)
+- accedere alla scheda di una risorsa (ok)
+- prenotare una risorsa (ok)
+- pagare la prenotazione (ok scelta metodo, da fare i due metodi)
+- consultare la lista delle mie prenotazioni (ok
+- disdire una prenotazione (ok)
+
+operatore di sportello
+- registrare un utente (ok)
+- cambiare anagrafica di un utente (ok)
+- prenotare una risorsa ad un utente (ok)
+- disdire una prenotazione a nome dell'utente (ok)
+- marcare come pagata una prenotazione
+
+admin di risorsa
+- creare risorsa (ok)
+- editare risorsa (ok)
+- cancellare risorsa (ok)
+- sospendere risorsa [usa una prenotazione speciale???]
+- definire profilo di funzione di costo (ok)
+- editare profilo di funzione di costo (ok)
+- nominare operatori di sportello (ok)
+
+superadmin
+- nominare admin di risorsa

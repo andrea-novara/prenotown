@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="groupRetractTime" type="text" default="30" label="Group retract margin in days" description="Groups can retract their booking in a special range of time, which can be longer than normal users time." size="3" />
+	</params>
+</config>
+
